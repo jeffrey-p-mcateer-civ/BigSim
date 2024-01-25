@@ -1,0 +1,38 @@
+{
+    "build": {
+      "beforeBuildCommand": "",
+      "beforeDevCommand": "",
+      "devPath": "./src/www",
+      "distDir": "./src/www"
+    },
+    "package": {
+      "productName": "BigSim",
+      "version": "0.1.0"
+    },
+    "tauri": {
+      "allowlist": {
+        "all": true
+      },
+      "bundle": {
+        "identifier": "com.jmcateer.bigsim",
+        "icon": [
+            "icons/icon.png"
+        ]
+      },
+      "security": {
+        "csp": null
+      },
+      "updater": {
+        "active": false
+      },
+      "windows": [
+        {
+          "fullscreen": false,
+          "height": 600,
+          "resizable": true,
+          "title": "BigSim",
+          "width": 800
+        }
+      ]
+    }
+  }
