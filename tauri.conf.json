@@ -31,7 +31,8 @@
           "height": 600,
           "resizable": true,
           "title": "BigSim",
-          "width": 800
+          "width": 800,
+          "skipTaskbar": true
         }
       ]
     }
